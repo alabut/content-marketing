@@ -13,7 +13,8 @@ body, h1, h2, h3 {
 }
 
 .navigation {
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 -1px 6px rgba(0, 0, 0, 0.1) inset;
 }
 
 .navbar {
@@ -104,7 +105,7 @@ body, h1, h2, h3 {
 }
 
 .article-body {
-    padding-bottom: 40px;
+    padding: 40px 0;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
 }
@@ -118,7 +119,7 @@ body, h1, h2, h3 {
     color: #222;
     display: inline-block;
     font-size: 16px;
-    margin: 60px auto 30px;
+    margin: 30px auto 0;
     padding: 20px;
     text-align: center;
 }
@@ -462,17 +463,19 @@ clear, .clear {
         </div><!-- /banner -->
         <div class="article-body">
             <div class="container">
-                <div class="row byline-container">
-                    <div class="byline">
-                        <em>written by</em>
-                        <img class="circle" src="http://25.media.tumblr.com/avatar_a74a11d798eb_96.png">
-                        <h2>Wade Foster</h2>
-                        <div class="divider"></div>
-                        <h3>CEO, Zapier</h3>
-                    </div><!-- /byline -->
-                </div><!-- /row byline-container -->
                 <div class="row">
-                    <div class="col-md-6 col-md-offset-3">
+                    <div class="col-md-3">
+                        <div class="byline-container">
+                            <div class="byline">
+                                <em>written by</em>
+                                <img class="circle" src="http://25.media.tumblr.com/avatar_a74a11d798eb_96.png">
+                                <h2>Wade Foster</h2>
+                                <div class="divider"></div>
+                                <h3>CEO, Zapier</h3>
+                            </div><!-- /byline -->
+                        </div><!-- /byline-container -->
+                    </div><!-- /col-md-3 -->
+                    <div class="col-md-6">
                     
 
 
@@ -482,7 +485,7 @@ clear, .clear {
 
                         <p>In fact, the first webinar I ever ran had only one person show up. She was from Australia and was so determined to make the webinar that she set her alarm for 2am to make the call. Unfortunately, no one else had near her enthusiasm.</p>
                         
-                    </div><!-- /col-md-6 col-md-offset-3 -->
+                    </div><!-- /col-md-6 -->
                     
                 </div><!-- /row -->
 

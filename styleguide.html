@@ -7,6 +7,17 @@
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
         <link href="css/marketing.css" rel="stylesheet" media="screen">
 
+<style type="text/css" media="screen">
+
+.intro {
+    background: #eee;
+    color: #FF4A00;
+    padding: 40px 0;
+    text-align: center;
+}
+
+</style>
+
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
         <script src="js/html5shiv.js"></script>
@@ -14,7 +25,351 @@
         <![endif]-->
     </head>
     <body>
+        <div class="intro">
+            <em>Welcome to the</em>
+            <h1>Zapier blog style guide</h1>
+        </div><!-- /intro -->
+        
+        <div class="container">
+            <h2>Table of Contents:</h2>
+            <ol>
+                <li>Navigation</li>
+                <li>Headers</li>
+                <li>Article Body</li>
+                <li>Footer Widgets</li>
+            </ol>
+        </div><!-- /container -->
+        
+        <div class="container">
+            <h2>Navigation</h2>
+            <p>Example:</p>
+        </div><!-- /container -->
+    
+        <div class="banner blog">
+            <div class="navigation">
+                <div class="container">
+                    <nav class="navbar" role="navigation">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#">
+                                <img src="images/logo-white-small.png" alt="Zapier logo">
+                            </a>
+                        </div><!-- /navbar-header -->
 
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse navbar-ex1-collapse">
+
+                            <p class="navbar-text pull-right">
+                                <a href="https://zapier.com/how-it-works/" class="navbar-link">How It Works</a>
+                                <strong>&middot;</strong>
+                                <a href="https://zapier.com/about/" class="navbar-link">About</a>
+                                <strong>&middot;</strong>
+                                <a href="https://zapier.com/app/explore" class="navbar-link">Explore</a>
+                                <strong>&middot;</strong>
+                                <a href="https://zapier.com/app/pricing" class="navbar-link">Pricing</a>
+                                <strong>&middot;</strong>
+                                <a href="https://zapier.com/app/signup" class="navbar-link">Sign Up</a>
+                                <a href="https://zapier.com/app/login" class="btn btn-default navbar-btn">Log In</a>
+                            </p>
+
+                        </div><!-- /.navbar-collapse -->
+                    </nav>
+
+                </div><!-- /container -->
+            </div><!-- /navigation -->
+        </div><!-- /banner -->
+        
+        <div class="container">
+            <br>
+            <p>HTML:</p>
+            <p><em>(notice that the "navigation" div block is inside the "banner" div)</em></p>
+            <pre>
+                <code>
+
+<br/>        &lt;div class=&quot;banner blog&quot;&gt;<br/>            &lt;div class=&quot;navigation&quot;&gt;<br/>                &lt;div class=&quot;container&quot;&gt;<br/>                    &lt;nav class=&quot;navbar&quot; role=&quot;navigation&quot;&gt;<br/>                        &lt;!-- Brand and toggle get grouped for better mobile display --&gt;<br/>                        &lt;div class=&quot;navbar-header&quot;&gt;<br/>                            &lt;button type=&quot;button&quot; class=&quot;navbar-toggle&quot; data-toggle=&quot;collapse&quot; data-target=&quot;.navbar-ex1-collapse&quot;&gt;<br/>                                &lt;span class=&quot;sr-only&quot;&gt;Toggle navigation&lt;/span&gt;<br/>                                &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;<br/>                                &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;<br/>                                &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;<br/>                            &lt;/button&gt;<br/>                            &lt;a class=&quot;navbar-brand&quot; href=&quot;#&quot;&gt;<br/>                                &lt;img src=&quot;images/logo-white-small.png&quot; alt=&quot;Zapier logo&quot;&gt;<br/>                            &lt;/a&gt;<br/>                        &lt;/div&gt;&lt;!-- /navbar-header --&gt;<br/><br/>                        &lt;!-- Collect the nav links, forms, and other content for toggling --&gt;<br/>                        &lt;div class=&quot;collapse navbar-collapse navbar-ex1-collapse&quot;&gt;<br/><br/>                            &lt;p class=&quot;navbar-text pull-right&quot;&gt;<br/>                                &lt;a href=&quot;https://zapier.com/how-it-works/&quot; class=&quot;navbar-link&quot;&gt;How It Works&lt;/a&gt;<br/>                                &lt;strong&gt;&amp;middot;&lt;/strong&gt;<br/>                                &lt;a href=&quot;https://zapier.com/about/&quot; class=&quot;navbar-link&quot;&gt;About&lt;/a&gt;<br/>                                &lt;strong&gt;&amp;middot;&lt;/strong&gt;<br/>                                &lt;a href=&quot;https://zapier.com/app/explore&quot; class=&quot;navbar-link&quot;&gt;Explore&lt;/a&gt;<br/>                                &lt;strong&gt;&amp;middot;&lt;/strong&gt;<br/>                                &lt;a href=&quot;https://zapier.com/app/pricing&quot; class=&quot;navbar-link&quot;&gt;Pricing&lt;/a&gt;<br/>                                &lt;strong&gt;&amp;middot;&lt;/strong&gt;<br/>                                &lt;a href=&quot;https://zapier.com/app/signup&quot; class=&quot;navbar-link&quot;&gt;Sign Up&lt;/a&gt;<br/>                                &lt;a href=&quot;https://zapier.com/app/login&quot; class=&quot;btn btn-default navbar-btn&quot;&gt;Log In&lt;/a&gt;<br/>                            &lt;/p&gt;<br/><br/>                        &lt;/div&gt;&lt;!-- /.navbar-collapse --&gt;<br/>                    &lt;/nav&gt;<br/><br/>                &lt;/div&gt;&lt;!-- /container --&gt;<br/>            &lt;/div&gt;&lt;!-- /navigation --&gt;<br/>            &lt;div class=&quot;container&quot;&gt;<br/>                &lt;h1&gt;How KISSmetrics Increased Webinar Signup Rates by 1,000%&lt;/h1&gt;<br/>            &lt;/div&gt;&lt;!-- /container --&gt;<br/>        &lt;/div&gt;&lt;!-- /banner --&gt;
+
+                    
+                </code>
+            </pre>
+        </div><!-- /container -->
+        
+        <div class="container">
+            <h2>Headers</h2>
+            <p>These are the types of headers available:</p>
+            <ol>
+                <li>Default (solid orange background, no photo or subtitle)</li>
+                <li>With Photo</li>
+                <li>With Subtitle</li>
+                <li>With Photo and Subtitle</li>
+                <li>Case Study</li>
+            </ol>
+            <h3>Default (solid orange background, no photo or subtitle)</h3>
+            <p>Example:</p>
+        </div><!-- /container -->
+        
+        
+        <div class="banner blog">
+            <div class="navigation">
+                <div class="container">
+                    <nav class="navbar" role="navigation">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#">
+                                <img src="images/logo-white-small.png" alt="Zapier logo">
+                            </a>
+                        </div><!-- /navbar-header -->
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse navbar-ex1-collapse">
+
+                            <p class="navbar-text pull-right">
+                                <a href="https://zapier.com/how-it-works/" class="navbar-link">How It Works</a>
+                                <strong>&middot;</strong>
+                                <a href="https://zapier.com/about/" class="navbar-link">About</a>
+                                <strong>&middot;</strong>
+                                <a href="https://zapier.com/app/explore" class="navbar-link">Explore</a>
+                                <strong>&middot;</strong>
+                                <a href="https://zapier.com/app/pricing" class="navbar-link">Pricing</a>
+                                <strong>&middot;</strong>
+                                <a href="https://zapier.com/app/signup" class="navbar-link">Sign Up</a>
+                                <a href="https://zapier.com/app/login" class="btn btn-default navbar-btn">Log In</a>
+                            </p>
+
+                        </div><!-- /.navbar-collapse -->
+                    </nav>
+
+                </div><!-- /container -->
+            </div><!-- /navigation -->
+            <div class="container">
+                <h1>How KISSmetrics Increased Webinar Signup Rates by 1,000%</h1>
+            </div><!-- /container -->
+        </div><!-- /banner -->
+        
+        <div class="container">
+            <br>
+            <p>Code:</p>
+            <pre>
+                <code>
+
+<br/>        &lt;div class=&quot;banner blog&quot;&gt;<br/>            &lt;div class=&quot;navigation&quot;&gt;<br/>                ...<br/>            &lt;/div&gt;&lt;!-- /navigation --&gt;<br/>            &lt;div class=&quot;container&quot;&gt;<br/>                &lt;h1&gt;How KISSmetrics Increased Webinar Signup Rates by 1,000%&lt;/h1&gt;<br/>            &lt;/div&gt;&lt;!-- /container --&gt;<br/>        &lt;/div&gt;&lt;!-- /banner --&gt;
+
+
+                </code>
+            </pre>
+        </div><!-- /container -->
+        
+        
+        <div class="container">
+            <h3>With Photo</h3>
+            <p>Example:</p>
+        </div><!-- /container -->
+        
+
+        <div class="banner blog" style="background-image: url(http://667a658c624a3c03a6b2-25cda059d975d2f318c03e90bcf17c40.r92.cf1.rackcdn.com/unsplash_524000a90aaad_1.JPG); background-position: 0 60%;">
+            <div class="navigation">
+                <div class="container">
+                    <nav class="navbar" role="navigation">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#">
+                                <img src="images/logo-white-small.png" alt="Zapier logo">
+                            </a>
+                        </div><!-- /navbar-header -->
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse navbar-ex1-collapse">
+
+                            <p class="navbar-text pull-right">
+                                <a href="https://zapier.com/how-it-works/" class="navbar-link">How It Works</a>
+                                <strong>&middot;</strong>
+                                <a href="https://zapier.com/about/" class="navbar-link">About</a>
+                                <strong>&middot;</strong>
+                                <a href="https://zapier.com/app/explore" class="navbar-link">Explore</a>
+                                <strong>&middot;</strong>
+                                <a href="https://zapier.com/app/pricing" class="navbar-link">Pricing</a>
+                                <strong>&middot;</strong>
+                                <a href="https://zapier.com/app/signup" class="navbar-link">Sign Up</a>
+                                <a href="https://zapier.com/app/login" class="btn btn-default navbar-btn">Log In</a>
+                            </p>
+
+                        </div><!-- /.navbar-collapse -->
+                    </nav>
+
+                </div><!-- /container -->
+            </div><!-- /navigation -->
+            <div class="container">
+                <h1>
+                    Navigating the rough seas of support
+                </h1>
+            </div><!-- /container -->
+        </div><!-- /banner -->
+        <div class="container">
+            <br>
+            <p>Code:</p>
+            <pre>
+                <code>
+
+                    <br/>        &lt;div class=&quot;banner blog&quot; style=&quot;background-image: url(http://667a658c624a3c03a6b2-25cda059d975d2f318c03e90bcf17c40.r92.cf1.rackcdn.com/unsplash_524000a90aaad_1.JPG); background-position: 0 60%;&quot;&gt;<br/>            &lt;div class=&quot;navigation&quot;&gt;<br/>                ...<br/>            &lt;/div&gt;&lt;!-- /navigation --&gt;<br/>            &lt;div class=&quot;container&quot;&gt;<br/>                &lt;h1&gt;<br/>                    Navigating the rough seas of support<br/>                &lt;/h1&gt;<br/>            &lt;/div&gt;&lt;!-- /container --&gt;<br/>        &lt;/div&gt;&lt;!-- /banner --&gt;
+
+                </code>
+            </pre>
+        </div><!-- /container -->
+        
+        
+        <div class="container">
+            <h3>With Subtitle</h3>
+            <p>Example:</p>
+        </div><!-- /container -->
+        
+        
+        <div class="banner blog">
+            <div class="navigation">
+                <div class="container">
+                    <nav class="navbar" role="navigation">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#">
+                                <img src="images/logo-white-small.png" alt="Zapier logo">
+                            </a>
+                        </div><!-- /navbar-header -->
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse navbar-ex1-collapse">
+
+                            <p class="navbar-text pull-right">
+                                <a href="https://zapier.com/how-it-works/" class="navbar-link">How It Works</a>
+                                <strong>&middot;</strong>
+                                <a href="https://zapier.com/about/" class="navbar-link">About</a>
+                                <strong>&middot;</strong>
+                                <a href="https://zapier.com/app/explore" class="navbar-link">Explore</a>
+                                <strong>&middot;</strong>
+                                <a href="https://zapier.com/app/pricing" class="navbar-link">Pricing</a>
+                                <strong>&middot;</strong>
+                                <a href="https://zapier.com/app/signup" class="navbar-link">Sign Up</a>
+                                <a href="https://zapier.com/app/login" class="btn btn-default navbar-btn">Log In</a>
+                            </p>
+
+                        </div><!-- /.navbar-collapse -->
+                    </nav>
+
+                </div><!-- /container -->
+            </div><!-- /navigation -->
+            <div class="container">
+                <h1>
+                    Navigating the rough seas of support
+                    <em>Keep users from drowing in your app</em>
+                </h1>
+            </div><!-- /container -->
+        </div><!-- /banner -->
+        
+        <div class="container">
+            <br>
+            <p>Code:</p>
+            <pre>
+                <code>
+
+                     &lt;div class=&quot;banner blog&quot;&gt;<br/>            &lt;div class=&quot;navigation&quot;&gt;<br/>                &lt;div class=&quot;container&quot;&gt;<br/>                    ...<br/>            &lt;/div&gt;&lt;!-- /navigation --&gt;<br/>            &lt;div class=&quot;container&quot;&gt;<br/>                &lt;h1&gt;<br/>                    Navigating the rough seas of support<br/>                    &lt;em&gt;Keep users from drowing in your app&lt;/em&gt;<br/>                &lt;/h1&gt;<br/>            &lt;/div&gt;&lt;!-- /container --&gt;<br/>        &lt;/div&gt;&lt;!-- /banner --&gt;
+
+                </code>
+            </pre>
+        </div><!-- /container -->
+        
+        
+        <div class="container">
+            <h3>With Photo and Subtitle</h3>
+            <p>Example:</p>
+        </div><!-- /container -->
+        
+        
+        <div class="banner blog" style="background-image: url(http://667a658c624a3c03a6b2-25cda059d975d2f318c03e90bcf17c40.r92.cf1.rackcdn.com/unsplash_524000a90aaad_1.JPG); background-position: 0 60%;">
+            <div class="navigation">
+                <div class="container">
+                    <nav class="navbar" role="navigation">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#">
+                                <img src="images/logo-white-small.png" alt="Zapier logo">
+                            </a>
+                        </div><!-- /navbar-header -->
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse navbar-ex1-collapse">
+
+                            <p class="navbar-text pull-right">
+                                <a href="https://zapier.com/how-it-works/" class="navbar-link">How It Works</a>
+                                <strong>&middot;</strong>
+                                <a href="https://zapier.com/about/" class="navbar-link">About</a>
+                                <strong>&middot;</strong>
+                                <a href="https://zapier.com/app/explore" class="navbar-link">Explore</a>
+                                <strong>&middot;</strong>
+                                <a href="https://zapier.com/app/pricing" class="navbar-link">Pricing</a>
+                                <strong>&middot;</strong>
+                                <a href="https://zapier.com/app/signup" class="navbar-link">Sign Up</a>
+                                <a href="https://zapier.com/app/login" class="btn btn-default navbar-btn">Log In</a>
+                            </p>
+
+                        </div><!-- /.navbar-collapse -->
+                    </nav>
+
+                </div><!-- /container -->
+            </div><!-- /navigation -->
+            <div class="container">
+                <h1>
+                    Navigating the rough seas of support
+                    <em>Keep users from drowing in your app</em>
+                </h1>
+            </div><!-- /container -->
+        </div><!-- /banner -->
+        
+        <div class="container">
+            <br>
+            <p>Code:</p>
+            <pre>
+                <code>
+
+                            &lt;div class=&quot;banner blog&quot; style=&quot;background-image: url(http://667a658c624a3c03a6b2-25cda059d975d2f318c03e90bcf17c40.r92.cf1.rackcdn.com/unsplash_524000a90aaad_1.JPG); background-position: 0 60%;&quot;&gt;<br/>            &lt;div class=&quot;navigation&quot;&gt;<br/>                ...<br/>            &lt;/div&gt;&lt;!-- /navigation --&gt;<br/>            &lt;div class=&quot;container&quot;&gt;<br/>                &lt;h1&gt;<br/>                    Navigating the rough seas of support<br/>                    &lt;em&gt;Keep users from drowing in your app&lt;/em&gt;<br/>                &lt;/h1&gt;<br/>            &lt;/div&gt;&lt;!-- /container --&gt;<br/>        &lt;/div&gt;&lt;!-- /banner --&gt;
+
+                </code>
+            </pre>
+        </div><!-- /container -->
+        
+        
+        <div class="container">
+            <h3>Case Study</h3>
+            <p>Example:</p>
+        </div><!-- /container -->
+        
+        
         <div class="banner kissmetrics">
             <div class="navigation">
                 <div class="container">
@@ -62,247 +417,28 @@
                 </div><!-- /row subheader -->
             </div><!-- /container -->
         </div><!-- /banner -->
-        <div class="article-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="byline-container">
-                            <div class="byline">
-                                <em>written by</em>
-                                <img class="circle" src="http://25.media.tumblr.com/avatar_a74a11d798eb_96.png">
-                                <h2>Wade Foster</h2>
-                                <div class="divider"></div>
-                                <h3>CEO, Zapier</h3>
-                            </div><!-- /byline -->
-                        </div><!-- /byline-container -->
-                    </div><!-- /col-md-3 -->
-                    <div class="col-md-6">
-                    
-
-
-
-
-                        <p class="lead">Running a webinar is a bit of a mystery to a newbie. There are so many components to running a good webinar that many first timers might get a dozen or so signups, but come webinar time only one person actually attends!</p>
-
-                        <p>In fact, the first webinar I ever ran had only one person show up. She was from Australia and was so determined to make the webinar that she set her alarm for 2am to make the call. Unfortunately, no one else had near her enthusiasm.</p>
-                        
-                    </div><!-- /col-md-6 -->
-                    
-                </div><!-- /row -->
-
-                <div class="row">
-                    <div class="col-md-12 pullquote">
-                        <p>After all that work, it's a major let down to find out no one cares about the webinar you put together.</p>
-                    </div><!-- /col-md-12 pullquote -->
-                </div><!-- /row -->
-
-
-
-                
-                
-                <div class="row">
-                    <div class="col-md-6 col-md-offset-3">
-
-                        <p>To avoid anyone having the same experience I did with running a webinar, I chatted with <a href="http://www.linkedin.com/in/nemochu">Nemo Chu</a> of <a href="https://www.kissmetrics.com/">KISSMetrics</a> to learn exactly how to replicate the success that lead to KISSMetrics generating $13,000 in sales opportunities from a single webinar.</p>
-
-                        <h3 id="gettingstarted">Getting Started</h3>
-
-                        <p><strong>To run a webinar KISSMetrics style, you'll need a couple tools.</strong> The main tools used by KISSMetrics are <a href="http://unbounce.com/">Unbounce</a> for landing pages, <a href="http://www.gotomeeting.com/online/webinar">GoToWebinar</a> for running the webinar, <a href="http://www.aweber.com/">AWeber</a> for sending email, and <a href="https://zapier.com/">Zapier</a> for automation and gluing all the apps together.</p>
-
-                        <p>All these tools are quite easy for a marketer to get started with so don't worry if you've never heard of them. You'll likely have no problems getting started.</p>
-
-                        <p>All right, now onto the fun part. How do we run a webinar that gets us KISSMetrics level success?</p>
-
-                        <h3 id="1identifythegoalofthewebinarsales">1. Identify the goal of the webinar (sales)</h3>
-
-                        <blockquote>
-                          <p>"What gets measured, gets managed." - Peter Drucker</p>
-                        </blockquote>
-
-                        <p><strong>The most important part of any webinar is understanding why you are doing it.</strong> Any good marketer is results driven. For Nemo and KISSMetrics the most important thing was generating sales qualified leads. So if the webinar isn't generating qualified leads, then it's not doing it's job - even if it's the world's most attended webinar. </p>
-
-                        <h3 id="2identifycontentthatconverts">2. Identify content that converts</h3>
-
-                        <p>If you know what the goal of your webinar is, the next step is figuring out what content to put in your webinar that will lead to success. <strong>You want content that converts.</strong></p>
-
-                        <p>Nemo did this by analyzing all the past KISSMetrics email campaigns and blog posts. The data easily shows which content converts to KISSMetrics customers best. Things like email open rates or conversion to trial from a blog post are great metrics to look at for identifying high converting content. </p>
-
-                        <h3 id="3buildthefunnel">3. Build the funnel</h3>
-
-                        <p>Once you know the content of the webinar, you'll have to figure out how to get people to actually sign up and then attend the webinar. This is a lot harder than it looks.</p>
-
-                        <p>At KISSMetrics they lean heavily on the audience they've built over the years. That means they'll announce the webinar via their email lists (they use AWeber for their email campaigns) which direct visitors to a blog post about the webinar which might be on the KISSMetrics blog or on Quicksprout (Neil Patel's site) like <a href="http://www.quicksprout.com/2013/01/28/how-i-grew-the-kissmetrics-blog-from-0-to-350000-readers/">this post</a>. People also might find out about the webinar via RSS or social channels they've built up as well. </p>
-
-                        <p>They've also collaborated on webinars with other partnerships who service the same market as KISSMetrics. This helps expose their content to a potentially new audience.</p>
-
-                        <p>The blog post then directs traffic to a dedicated landing page encouraging site visitors to register for the webinar.</p>
-
-                        <p>In the past they've used the standard GoToWebinar landing page, however, <strong>conversion rates were a paltry 4-6% for registering for the webinar.</strong> </p>
-
-                        <p>So instead KISSMetrics directs users to an Unbounce landing page where they can control the look and feel of the landing page and run A/B tests to increase conversion. </p>
-
-
-                        
-                    </div><!-- /col-md-6 col-md-offset-3 -->
-                    
-                </div><!-- /row -->
-
-                <div class="row">
-                    <div class="col-md-12 pullquote">
-                        <p>By using Unbounce, KISSMetrics is able to get conversion rates from 40-80%. This is an enormous <strong>1,000%+ conversion bump</strong> over the standard GoToWebinar landing page.</p>
-                    </div><!-- /col-md-12 pullquote -->
-                </div><!-- /row -->
-
-
-
-                
-                
-                <div class="row">
-                    <div class="col-md-6 col-md-offset-3">
-
-
-                        <p>Another great part about using Unbounce is that after the user registers for the webinar, KISSMetrics is able to direct users to sign up for a free trial of KISSMetrics on the thank you page rather than having a generic thank you page from GoToWebinar.</p>
-
-                        <p>Then using the simple Zap found below, <strong>KISSMetrics is able to take leads straight from Unbounce and auto-register them for the webinar</strong> which will be run using GoToWebinar's webinar software.</p>
-
-                        <script src="https://zapier.com/zapbook/embed/widget.js?zaps=15954"></script>
-                        
-                        <p class="caption"><strong>What is a Zap?</strong> It's what Zapier calls an integration between two different apps, like this one above between Unbounce and GoToWebinar. There's <a href="http://zapier.com/zapbook/">over 200+ of them</a> in Zapier!</p>
-
-                        <p>From there, GoToWebinar will handle sending a confirmation email to the registrant. It will also remind the registrant about the event before hand.</p>
-
-                        <p>If you don't like the look and feel of GoToWebinar auto-emails, then <strong>you can also set up a Zap that adds your registrants to an email marketing service</strong> like AWeber.</p>
-
-                        <script src="https://zapier.com/zapbook/embed/widget.js?zaps=4451"></script>
-
-                        <p>Then you'll have a list set up of all the people who signed up for the webinar. You can send them an email the day before the event. Or 30 minutes before the event. Or the day after the event. Or any time you want!</p>
-
-                        <p>And there you go! Now you should have a webinar prepped and ready with leads waiting to hear what you have to say.</p>
-                        
-                        
-                        
-                        
-                
-
-                        
-                    </div><!-- /col-md-6 col-md-offset-3 -->
-                    
-                </div><!-- /row -->
-
-                <div class="row">
-                    <div class="col-md-12 pullquote endquote">
-                        <p>The magic of this process is how KISSMetrics is able to <strong>control the calls-to-action throughout the entire process</strong> to make sure that conversion rates are as high as possible.</p>
-                    </div><!-- /col-md-12 pullquote -->
-                </div><!-- /row -->
-
-
-
-                
-                
-                <div class="row">
-                    <div class="col-md-6 col-md-offset-3">        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-
-                        <h3 id="4runningthewebinar">4. Running the webinar</h3>
-
-                        <p>Don't get ahead of yourself quite yet! You've done a lot of work just to get people to sign up for your webinar, but you still actually have to run the webinar and get your webinar attendees to take action on whatever your Step 1 goal is.</p>
-
-                        <p>This means you'll need a clean and flawless presentation during the webinar to hit your goal targets.</p>
-
-                        <p>Here are some basic tips:</p>
-
-                        <ol>
-                        <li><p><strong>Make sure to start on time!</strong> You promised to start the webinar at a certain time. If you start late your attendees can get confused or even upset. Starting on time is key.</p></li>
-                        <li><p>The first thing you should do after starting is <strong>tell attendees that they'll get a freebie</strong> if they stick around until the end. This encourages people to pay attention for the whole webinar.</p></li>
-                        <li><p><strong>Have two people running the webinar.</strong> One person can manage the webinar, while the other can focus on presenting. This will keep the presenter from getting flustered because something weird happens with the slides, the video or the audio.</p></li>
-                        <li><p><strong>Start with educational content.</strong> Give some of your best tips and tricks away for whatever the webinar content is.</p></li>
-                        <li><p><strong>Transition smoothly from the educational part of the webinar to the sales part of the webinar.</strong> KISSMetrics does this by teaching attendees how KISSMetrics helps users achieve their marketing goals.</p></li>
-                        <li><p><strong>Have a strong call-to-action.</strong> Make sure your attendees know what to do after the webinar is over. </p></li>
-                        <li><p><strong>Follow up quickly.</strong> The later you wait to follow up with attendees the more likely they are to forget about you. You can use the below Zap to add the GoToWebinar attendees to a dedicated AWeber list that you can use to contact your attendees over time.
-                        <script src="https://zapier.com/zapbook/embed/widget.js?zaps=26900"></script></p></li>
-                        </ol>
-
-
-                        <h3 id="5swapthesignupforwebinarlandingpageforagetthewebinerrecordinglandingpage">5. Swap the "sign up for webinar" landing page for a "get the webinar recording" landing page</h3>
-
-                        <p>You've done all this great work to create a webinar that provides value to your customers. <strong>Don't let that content get lost to the wind.</strong> Instead, go back and edit the landing page so that users who give you an email address can now get a recording of the webinar. This allows your webinar to keep converting traffic to leads long after the webinar has ended.</p>
-
-                        <h3 id="6optimizeforlearning">6. Optimize for learning.</h3>
-
-                        <p>You won't get your webinar right the first time. So the most important thing is to optimize for learning. <strong>And the best way to learn is to do a webinar several times.</strong> This means speed is important. </p>
-
-                        <p>That's why Nemo at KISSMetrics uses tools like Unbounce, Zapier, GoToWebinar and AWeber. They are easy to get started with and don't require you to build a ton of things from scratch. </p>
-
-                        <h3 id="makingithappenyourself">Making It Happen Yourself</h3>
-
-                        <p>There you go! That's how KISSMetrics runs their webinars. You should now have everything you need to make sure you can run a successful webinar too. </p>
-
-
-
-
-
-
-
-                        
-                    </div><!-- /col-md-6 col-md-offset-3 -->
-                    
-                </div><!-- /row -->
-                
-                
-            </div><!-- /container -->
-        </div><!-- /article-body -->
-        <div class="call-to-action">
-            <div class="container">
-                <h1>You can automate your work with Zapier too</h1>
-                <div class="divider"></div>
-                <h2>Create a free account!</h2>
-                <a href="https://zapier.com/app/signup" class="btn">Sign Up</a>
-            </div><!-- /container -->
-        </div><!-- /call-to-action -->
-    
-        <div class="footer">
-            <div class="container">
-
-                <ul class="links">
-                    <li><a href="/zapbook/reviews/">Reviews</a></li>
-                    <li><a href="/zapbook/">Service Directory</a></li>
-                    <li><a href="/blog/">Blog</a></li>
-                    <li><a href="/developer/">Developers / API</a></li>
-                    <li><a href="/status/">Status</a></li>
-                    <li><a href="/support/">Support</a></li>
-                    <li><a href="/terms/">Terms of Service</a></li>
-                    <li><a href="/privacy/">Privacy</a></li>
-                    <li><a href="/blog/help-automate-business-zapier-jobs-and-careers/">Jobs</a></li>
-                    <li><a href="/about/">About</a></li>
-                </ul>
-
-                <span class="social">
-                    <a href="https://twitter.com/#!/zapier">
-                        <img src="https://zapier.cachefly.net/static/CUb6lk/images/icons/twitter.png" alt="twitter">
-                    </a>
-                    <a href="http://www.facebook.com/ZapierApp">
-                        <img src="https://zapier.cachefly.net/static/CUb6lk/images/icons/facebook.png" alt="facebook">
-                    </a>
-                    <a href="http://www.linkedin.com/company/zapier/">
-                        <img src="https://zapier.cachefly.net/static/CUb6lk/images/icons/linkedin.png" alt="linkedin">
-                    </a>
-                    <a href="http://www.youtube.com/user/ZapierApp/videos">
-                        <img src="https://zapier.cachefly.net/static/CUb6lk/images/icons/youtube.png" alt="youtube">
-                    </a>
-                </span>
-                <clear></clear>
-                <div class="copyright">
-                    Site copyright &copy; 2013 Zapier Inc. All Rights Reserved.
-                </div><!-- /copyright -->
-            </div><!-- /container -->
-        </div><!-- /footer -->
         
+        <div class="container">
+            <br>
+            <p>Code:</p>
+            <pre>
+                <code>
+
+                    &lt;div class=&quot;banner kissmetrics&quot;&gt;<br/>            &lt;div class=&quot;navigation&quot;&gt;<br/>                ...<br/>            &lt;/div&gt;&lt;!-- /navigation --&gt;<br/>            &lt;div class=&quot;container&quot;&gt;<br/>                &lt;h1&gt;How KISSmetrics Increased Webinar Signup Rates by 1,000%&lt;/h1&gt;<br/>                &lt;div class=&quot;row subheader&quot;&gt;<br/>                    &lt;img src=&quot;images/kissmetrics-nemo.jpg&quot; alt=&quot;Nemo Chu&quot;&gt;<br/>                    &lt;h2&gt;A conversation with Nemo Chu&lt;/h2&gt;<br/>                    &lt;h3&gt;Director of Customer Success at KISSmetrics&lt;/h3&gt;<br/>                &lt;/div&gt;&lt;!-- /row subheader --&gt;<br/>            &lt;/div&gt;&lt;!-- /container --&gt;<br/>        &lt;/div&gt;&lt;!-- /banner --&gt;
+
+                </code>
+            </pre>
+        </div><!-- /container -->
+        
+        
+
+
+
+
+
+
+
+
+
     </body>
 </html>

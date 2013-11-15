@@ -1,0 +1,17 @@
+FIRST
+
+* write on async about home page and remote gear
+
+THEN
+
+* bring over Danny's writing in Editorially to the Kissmetrics page.
+* minimal home page(s).
+
+
+AND LAST
+
+* try two more variations on blog headers:
+    * text below #4, Medium-style.
+    * change orange hover states for links in nav to just plain underlines.
+    * change hover state for outline button to be a filled in white background.
+* ping Mike Knoop about when to meet up on Wed.

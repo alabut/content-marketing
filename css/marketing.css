@@ -313,6 +313,7 @@ div.zap-widget.zap-container {
 
 .call-to-action .form-control {
     font-weight: 100;
+    
 }
 
 .btn-call-to-action {
@@ -450,6 +451,103 @@ clear, .clear {
         margin-top: 83px;
     }
     
+}
+
+
+
+/* HOME PAGE VARIATIONS */
+
+.home-minimal,
+.home-minimal body,
+.home-minimal .banner {
+    height: 100%;
+    margin: 0;
+}
+
+.home-minimal .banner {
+    background: url(../images/home-wallpaper-01.png) no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.home-minimal .banner-fill {
+/*    position the banner in the center of the screen.
+    desktop-only for now and not as mobile-friendly as it could be.*/
+    left: 50%;
+    margin-top: -197px;
+    margin-left: -327px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+}
+
+.home-minimal h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.home-minimal h1 img {
+    height: auto;
+    max-width: 200px;
+}
+
+.home-minimal hr {
+    background: #fff;
+    border: 0;
+    height: 2px;
+    margin: 60px auto 20px;
+    width: 40px;
+}
+
+.home-minimal hr:last-of-type {
+    margin: 20px auto 60px;
+}
+
+.home-minimal h2 {
+    font-size: 52px;
+    font-weight: 100;
+    letter-spacing: -2px;
+    line-height: 110%;
+    margin: 0;
+}
+
+.home-minimal .signin {
+    color: rgba(255,255,255,0.65);
+    font-weight: 100;
+}
+
+.home-minimal .signin a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.home-minimal .btn-white:hover {
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+
+
+/* BUTTONS */
+
+.btn-huge-pill {
+    border: none;
+    border-radius: 50px;
+    font-weight: 100;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-transform: uppercase;
+}
+
+.btn-white {
+    background: #fff;
+    border: 1px solid transparent;
+    color: #FF4A00;
+}
+
+.btn-white:hover {
+    background: #FF4A00;
+    color: #fff;
 }
 
 

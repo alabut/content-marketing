@@ -482,7 +482,7 @@ clear, .clear {
 }
 
 .home-minimal .banner {
-    background: url(../images/home-wallpaper-01.png) no-repeat;
+    background: url(../images/home-wallpaper-01.jpg) no-repeat;
     background-size: cover;
     position: relative;
 }

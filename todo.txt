@@ -1,17 +1,32 @@
-FIRST
+WRITING
 
-* write on async about home page and remote gear
+* write on async about remote gear
 
-THEN
-
-* bring over Danny's writing in Editorially to the Kissmetrics page.
-* minimal home page(s).
-
-
-AND LAST
+BLOG
 
 * try two more variations on blog headers:
     * text below #4, Medium-style.
     * change orange hover states for links in nav to just plain underlines.
     * change hover state for outline button to be a filled in white background.
-* ping Mike Knoop about when to meet up on Wed.
+* blog post templates and single page style guide
+    * intro and requirements (explain marketing.css and link to bootstrap)
+    * light and dark navigation
+        ** fix hovers on light nav (orange links on orange bg)
+    * basic main article styles
+* design more blog widgets
+    * bottom footer 
+        * author bio
+        * explore/more articles
+        * various signups
+    * index page
+        * 1st pass for more contrast
+        * pull quote/short posts
+
+PERSONA PAGES
+
+* second pass at light design tweaks (like half moon headshots)
+
+DEV PLATFORM
+
+* build out section for biz dev types
+    * review 

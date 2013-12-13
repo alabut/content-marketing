@@ -487,15 +487,42 @@ clear, .clear {
     position: relative;
 }
 
+.home-minimal .banner-alternate {
+    background-image: url(../images/home-wallpaper-02.jpg);   
+}
+
+.home-minimal .banner-alternate2 {
+    background-image: url(../images/home-wallpaper-03.jpg);   
+}
+
+.home-minimal .banner-fill,
+.home-minimal .banner-fill2 {
+    position: absolute;
+    text-align: center;
+}
+
 .home-minimal .banner-fill {
 /*    position the banner in the center of the screen.
     desktop-only for now and not as mobile-friendly as it could be.*/
     left: 50%;
     margin-top: -197px;
     margin-left: -327px;
-    position: absolute;
-    text-align: center;
     top: 50%;
+}
+
+.home-minimal .banner-fill2 {
+    bottom: 0;
+    height: 50%;
+    left: 0;
+    margin: auto;
+    padding: 10%;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.home-minimal .banner-fill2.lead {
+    height: 500px;
 }
 
 .home-minimal h1 {
@@ -518,6 +545,10 @@ clear, .clear {
 
 .home-minimal hr:last-of-type {
     margin: 30px auto 60px;
+}
+
+.home-minimal .banner-fill2 hr {
+    margin: 30px auto;
 }
 
 .home-minimal h2 {

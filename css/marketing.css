@@ -508,8 +508,9 @@ clear, .clear {
 
 .home-minimal .banner {
     background: url(../images/home-wallpaper-01.jpg) no-repeat;
+    background-position: 50% 50%;
     background-size: cover;
-    min-height: 540px;
+    min-height: 620px;
     position: relative;
 }
 
@@ -518,37 +519,29 @@ clear, .clear {
 }
 
 .home-minimal .banner-alternate2 {
-    background-image: url(../images/home-wallpaper-03.jpg);   
+    background-image: url(../images/home-wallpaper-03.jpg);  
+    background-position: 50% 0; 
+}
+
+.home-minimal .banner-team {
+    background-image: url(../images/home-wallpaper-team.jpg);   
+}
+
+.home-minimal .banner-integrations {
+    background-image: url(../images/home-wallpaper-integrations.png); 
 }
 
 .home-minimal .banner-fill,
 .home-minimal .banner-fill2 {
     position: absolute;
     text-align: center;
-}
-
-.home-minimal .banner-fill {
-/*    position the banner in the center of the screen.
-    desktop-only for now and not as mobile-friendly as it could be.*/
     left: 50%;
-    margin-top: -197px;
-    margin-left: -327px;
     top: 50%;
-}
-
-.home-minimal .banner-fill2 {
-    bottom: 0;
-    height: 50%;
-    left: 0;
-    margin: auto;
-    padding: 0 10% 10%;
-    right: 0;
-    top: 0;
-    width: 100%;
-}
-
-.home-minimal .banner-fill2.lead {
-    height: 500px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .home-minimal h1 {
@@ -586,8 +579,43 @@ clear, .clear {
     text-transform: uppercase;
 }
 
+@media (max-width: 420px) {
+
+    .home-minimal h2 {
+        font-size: 48px;
+    }
+
+    .home-minimal .overlay {
+        max-width: 300px;
+    }
+
+}
+
 .home-minimal h3 {
     font-style: italic;
+}
+
+.home-minimal .col-md-8 h3 {
+    margin-top: 40px;
+}
+
+.home-minimal .col-md-8 h3:before {
+    content: "";
+    background: url(../images/home-wallpaper-01.jpg) no-repeat;
+    display: block;
+    height: 64px;
+    margin: 0 auto 40px;
+    text-align: center;
+    width: 64px;
+    /*
+    -webkit-mask-image: url(https://zapier.cachefly.net/static/CUt0dH/images/logo.png);
+    -webkit-mask-position: 50% 50%;
+    -webkit-mask-repeat: no-repeat;
+    */
+    mask: url(https://zapier.cachefly.net/static/CUt0dH/images/logo.png) 50% 50% no-repeat;
+    -webkit-mask: url(https://zapier.cachefly.net/static/CUt0dH/images/logo.png) 50% 50% no-repeat;
+    -o-mask: url(https://zapier.cachefly.net/static/CUt0dH/images/logo.png) 50% 50% no-repeat;
+    -ms-mask: url(https://zapier.cachefly.net/static/CUt0dH/images/logo.png) 50% 50% no-repeat;
 }
 
 .home-minimal .signin {

@@ -517,18 +517,18 @@ clear, .clear {
 @media (min-width: 340px) {
 
     .home-minimal .banner.lead:after {
-        background: rgba(0, 0, 0, 0.1);
+        background: rgba(0, 0, 0, 0.2);
         bottom: 20px;
-        border: 2px solid rgba(255, 255, 255, 0.65);
+        border: 3px solid rgba(255, 255, 255, 0.65);
         border-radius: 50%;
         content: "\BB"; /* hexadecimal code for a right double arrow (&raquo) */
         color: rgba(255, 255, 255, 0.65);
         font-size: 32px;
         height: 42px;
         left: 50%;
-        line-height: 32px;
+        line-height: 30px;
         margin-left: -21px;
-        padding-left: 13px;
+        padding-left: 12px;
         position: absolute;
         width: 42px;
         -webkit-transform: rotate(90deg);

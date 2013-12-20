@@ -514,6 +514,34 @@ clear, .clear {
     position: relative;
 }
 
+@media (min-width: 340px) {
+
+    .home-minimal .banner.lead:after {
+        bottom: 10px;
+        content: "\BB"; /* hexadecimal code for a right double arrow (&raquo) */
+        color: rgba(255, 255, 255, 0.65);
+        font-size: 32px;
+        left: 50%;
+        position: absolute;
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+
+        /* playing around with possibly adding a circular border
+        border: 1px solid rgba(255, 255, 255, 0.65);
+        border-radius: 50%;
+        bottom: 20px;
+        height: 52px;
+        margin-left: -25px;
+        padding-left: 19px;
+        width: 52px;
+        */
+    }
+
+}
+
 .home-minimal .banner-alternate {
     background-image: url(../images/home-wallpaper-02.jpg);   
 }
@@ -531,8 +559,7 @@ clear, .clear {
     background-image: url(../images/home-wallpaper-integrations.png); 
 }
 
-.home-minimal .banner-fill,
-.home-minimal .banner-fill2 {
+.home-minimal .banner-fill {
     position: absolute;
     text-align: center;
     left: 50%;
@@ -566,7 +593,7 @@ clear, .clear {
     margin: 30px auto 60px;
 }
 
-.home-minimal .banner-fill2 hr {
+.home-minimal .banner-fill hr {
     margin: 30px auto;
 }
 

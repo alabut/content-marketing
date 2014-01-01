@@ -569,6 +569,15 @@ clear, .clear {
     transform: translate(-50%, -50%);
 }
 
+.home-minimal .full-bleed {
+    text-align: center;
+}
+
+.home-minimal .full-bleed img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
 .home-minimal h1 {
     margin: 0;
     padding: 0;

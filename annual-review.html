@@ -12,61 +12,7 @@
         <script src="js/html5shiv.js"></script>
         <script src="js/respond.min.js"></script>
         <![endif]-->
-
-        <link href="https://google-developers.appspot.com/maps/documentation/javascript/examples/default.css" rel="stylesheet">
-        <script src="http://maps.googleapis.com/maps/api/js?v=3&sensor=false"></script>
-        <script>
-          function initialize() {
-            var myLatlng = new google.maps.LatLng(39.550538, -106.324776);
-
-            var mapOptions = {
-              zoom: 4,
-              center: myLatlng,
-              mapTypeId: google.maps.MapTypeId.ROADMAP
-            }
-            var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
-
-            var marker = new google.maps.Marker({
-              position: new google.maps.LatLng(37.386806, -122.083297),
-              map: map,images/home-map-marker.png
-              title: 'Zapier HQ',
-              clickable: false,
-              icon: 'images/home-map-marker.png',
-              optimized: false
-            });
-
-            var marker2 = new google.maps.Marker({
-              position: new google.maps.LatLng(38.951705, -92.334072),
-              map: map,
-              title: 'Columbia, Mo.',
-              clickable: false,
-              icon: 'images/home-map-marker.png',
-              optimized: false
-            });
-
-            var marker3 = new google.maps.Marker({
-              position: new google.maps.LatLng(41.25, -96),
-              map: map,
-              title: 'Omaha, Ne.',
-              clickable: false,
-              icon: 'images/home-map-marker.png',
-              optimized: false
-            });
-
-            var marker4 = new google.maps.Marker({
-              position: new google.maps.LatLng(41.881944, -87.627778),
-              map: map,
-              title: 'Chicago, Il.',
-              clickable: false,
-              icon: 'images/home-map-marker.png',
-              optimized: false
-            });
-
-
-
-
-          }
-        </script>
+        
     </head>
     <body onload="initialize()">
 
@@ -152,13 +98,15 @@
                 <img src="images/home-wallpaper-team-overlay.png" class="overlay">
             </div><!-- /banner-fill -->
         </div><!-- /banner -->
+
+        <div class="full-bleed">
+            <img src="images/annual-report-map.jpg">
+        </div>
+
         <div class="article-body">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-            <div id="map_canvas" style="height: 300px;">
-
-            </div>
                         <p>At the beginning of 2013 the team was the three founders plus Micah manning support, but by the end of 2013 Zapier is now a team of eight. </p>
 
                         <p>Right off the bat in January James joined and started building out the infrastructure. In March Cooksey came on board to help build out the developer platform (some pretty awesome stuff getting ready to launch here). Then in August, Danny joined to help increase the quality and quantity of content we publish on the Zapier blog. Then in November, Al joined to take design to the next level. In fact, this post is courtesy Al's great design chops.</p>

@@ -549,6 +549,10 @@ clear, .clear {
     background-position: 50% 0; 
 }
 
+.home-minimal .banner-alternate3 {
+    background-image: url(../images/home-wallpaper-04.jpg);  
+}
+
 .home-minimal .banner-team {
     background-image: url(../images/home-wallpaper-team.jpg);   
 }

@@ -673,6 +673,16 @@ clear, .clear {
     text-align: left;
 }
 
+.home-minimal .banner.intro .outline strong {
+    display: block;
+    text-align: center;
+}
+
+.home-minimal .banner.intro .outline ul {
+    list-style-type: circle;
+    margin-top: 20px;
+}
+
 .home-minimal .banner-stats h2 {
     font-size: 200px;
 }

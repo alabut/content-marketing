@@ -545,7 +545,7 @@ clear, .clear {
 }
 
 .home-minimal .banner-alternate2 {
-    background-image: url(../images/home-wallpaper-03.jpg);  
+    background-image: url(../images/home-wallpaper-03B.jpg);  
     background-position: 50% 0; 
 }
 
@@ -617,7 +617,13 @@ clear, .clear {
 }
 
 .home-minimal h3 {
-    font-style: italic;
+    color: #FF4A00;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.home-minimal .lead h3 {
+    color: #fff;
 }
 
 .home-minimal .col-md-8 h3 {
@@ -633,14 +639,14 @@ clear, .clear {
     text-align: center;
     width: 64px;
     /*
-    -webkit-mask-image: url(https://zapier.cachefly.net/static/CUt0dH/images/logo.png);
+    -webkit-mask-image: url(../images/logo-star-orange-small.png);
     -webkit-mask-position: 50% 50%;
     -webkit-mask-repeat: no-repeat;
     */
-    mask: url(https://zapier.cachefly.net/static/CUt0dH/images/logo.png) 50% 50% no-repeat;
-    -webkit-mask: url(https://zapier.cachefly.net/static/CUt0dH/images/logo.png) 50% 50% no-repeat;
-    -o-mask: url(https://zapier.cachefly.net/static/CUt0dH/images/logo.png) 50% 50% no-repeat;
-    -ms-mask: url(https://zapier.cachefly.net/static/CUt0dH/images/logo.png) 50% 50% no-repeat;
+    mask: url(../images/logo-star-orange-small.png) 50% 50% no-repeat;
+    -webkit-mask: url(../images/logo-star-orange-small.png) 50% 50% no-repeat;
+    -o-mask: url(../images/logo-star-orange-small.png) 50% 50% no-repeat;
+    -ms-mask: url(../images/logo-star-orange-small.png) 50% 50% no-repeat;
 }
 
 .home-minimal .signin {

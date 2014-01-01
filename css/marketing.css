@@ -648,6 +648,12 @@ clear, .clear {
     margin: 10px auto 30px;
 }
 
+.home-minimal .banner.intro {
+    background-image: none;
+    background: #EEE;
+    color: #222;
+}
+
 .home-minimal .banner.intro h3 {
     font-size: 60px;
     font-weight: 800;
@@ -660,7 +666,7 @@ clear, .clear {
 }
 
 .home-minimal .banner.intro .outline {
-    border: 1px solid #fff;
+    border: 1px solid #222;
     font-size: 18px;
     margin-top: 80px;
     padding: 20px;

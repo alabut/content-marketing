@@ -331,7 +331,8 @@ div.zap-widget.zap-container {
     -webkit-font-smoothing: antialiased;
 }
 
-.call-to-action h1 {
+.call-to-action h1,
+.home-minimal .call-to-action h1 {
     font-size: 52px;
     letter-spacing: -2px;
     font-weight: 700;
@@ -339,11 +340,18 @@ div.zap-widget.zap-container {
     margin-bottom: 30px;
 }
 
-.call-to-action h2 {
+.call-to-action h2,
+.home-minimal .call-to-action h2 {
     font-size: 22px;
     font-weight: 100;
+    letter-spacing: 0;
     line-height: 140%;
+    margin-top: 20px;
     margin-bottom: 40px;
+}
+
+.call-to-action p {
+    margin-top: 40px;
 }
 
 .call-to-action .divider {

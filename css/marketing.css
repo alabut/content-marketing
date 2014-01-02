@@ -648,24 +648,24 @@ clear, .clear {
     margin: 10px auto 30px;
 }
 
-.home-minimal .banner.intro {
+.home-minimal .banner-gray {
     background-image: none;
     background: #EEE;
     color: #222;
 }
 
-.home-minimal .banner.intro h3 {
+.home-minimal .banner-gray h3 {
     font-size: 60px;
     font-weight: 800;
 }
 
-.home-minimal .banner.intro p {
+.home-minimal .banner-gray p {
     font-size: 30px;
     line-height: 160%;
     margin-top: 30px;
 }
 
-.home-minimal .banner.intro .outline {
+.home-minimal .banner-gray .outline {
     border: 1px solid #222;
     font-size: 18px;
     margin-top: 80px;
@@ -673,12 +673,12 @@ clear, .clear {
     text-align: left;
 }
 
-.home-minimal .banner.intro .outline strong {
+.home-minimal .banner-gray .outline strong {
     display: block;
     text-align: center;
 }
 
-.home-minimal .banner.intro .outline ul {
+.home-minimal .banner-gray .outline ul {
     list-style-type: circle;
     margin-top: 20px;
 }
@@ -687,7 +687,8 @@ clear, .clear {
     font-size: 200px;
 }
 
-.home-minimal .banner-stats h3 {
+.home-minimal .banner-stats h3,
+.home-minimal .banner-footer h3 {
     font-size: 60px;
     font-weight: 100;
 }

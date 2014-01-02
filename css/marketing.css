@@ -584,6 +584,10 @@ clear, .clear {
     max-width: 100%;
 }
 
+.home-minimal .team-timeline {
+    background: #F0F0F0;
+}
+
 .home-minimal h1 {
     margin: 0;
     padding: 0;

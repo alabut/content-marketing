@@ -555,6 +555,10 @@ clear, .clear {
     background-image: url(../images/home-wallpaper-04.jpg);  
 }
 
+.home-minimal .banner-alternate4 {
+    background-image: url(../images/home-wallpaper-05.jpg);  
+}
+
 .home-minimal .banner-team {
     background-image: url(../images/home-wallpaper-team.jpg);   
 }

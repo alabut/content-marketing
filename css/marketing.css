@@ -567,6 +567,10 @@ clear, .clear {
     background-image: url(../images/home-wallpaper-integrations.png); 
 }
 
+.home-minimal .banner-2014 {
+    background-image: url(../images/annual-report-2014.jpg); 
+}
+
 .home-minimal .banner-fill {
     position: absolute;
     text-align: center;

@@ -508,9 +508,13 @@ clear, .clear {
 
 /* HOME PAGE VARIATIONS */
 
+.home-minimal .banner {
+    height: 110%;
+}
+
 .home-minimal,
 .home-minimal body,
-.home-minimal .banner {
+.home-minimal .banner.lead {
     height: 100%;
     margin: 0;
 }
@@ -697,6 +701,7 @@ clear, .clear {
     margin-bottom: 20px;
 }
 
+.home-minimal .outline h4,
 .home-minimal .outline p,
 .home-minimal .outline li {
     font-size: 20px;

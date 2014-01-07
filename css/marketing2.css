@@ -759,21 +759,13 @@ clear, .clear {
 
 .home-minimal .col-md-8 h3:before {
     content: "";
-    background: url(../images/home-wallpaper-01.jpg) no-repeat;
+    background: url(../images/logo-star-orange-small2.png) no-repeat;
+    background-size: cover;
     display: block;
     height: 64px;
     margin: 0 auto 40px;
     text-align: center;
     width: 64px;
-    /*
-    -webkit-mask-image: url(../images/logo-star-orange-small.png);
-    -webkit-mask-position: 50% 50%;
-    -webkit-mask-repeat: no-repeat;
-    */
-    mask: url(../images/logo-star-orange-small.png) 50% 50% no-repeat;
-    -webkit-mask: url(../images/logo-star-orange-small.png) 50% 50% no-repeat;
-    -o-mask: url(../images/logo-star-orange-small.png) 50% 50% no-repeat;
-    -ms-mask: url(../images/logo-star-orange-small.png) 50% 50% no-repeat;
 }
 
 .home-minimal .signin {

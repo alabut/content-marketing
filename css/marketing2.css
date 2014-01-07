@@ -533,16 +533,16 @@ clear, .clear {
 }
 
 .home-minimal .banner-alternate2 {
-    background-image: url(../images/home-wallpaper-03B.jpg);  
-    background-position: 50% 0; 
+    background-image: url(../images/home-wallpaper-03B.jpg);
+    background-position: 50% 0;
 }
 
 .home-minimal .banner-alternate3 {
-    background-image: url(../images/home-wallpaper-04.jpg);  
+    background-image: url(../images/home-wallpaper-04.jpg);
 }
 
 .home-minimal .banner-alternate4 {
-    background-image: url(../images/home-wallpaper-06.jpg);  
+    background-image: url(../images/home-wallpaper-06.jpg);
 }
 
 .home-minimal .banner-team {
@@ -550,11 +550,23 @@ clear, .clear {
 }
 
 .home-minimal .banner-integrations {
-    background-image: url(../images/home-wallpaper-integrations.png); 
+    background-image: url(../images/home-wallpaper-integrations.png);
 }
 
 .home-minimal .banner-2014 {
-    background-image: url(../images/annual-report-2014.jpg); 
+    background-image: url(../images/annual-report-2014.jpg);
+}
+
+.home-minimal .screenshot-collage {
+    background-image: url(../images/annual-report-screenshot-collage.gif);
+    background-size: initial;
+    background-repeat: repeat;
+}
+
+.home-minimal .screenshot-collage .banner-fill {
+    background: rgba(0,0,0,0.8);
+    font-size: 30px;
+    padding: 20px;
 }
 
 .home-minimal .banner-fill {
@@ -673,26 +685,32 @@ clear, .clear {
     margin-top: 30px;
 }
 
-.home-minimal .banner-gray .outline {
-    border: 1px solid #222;
-    font-size: 18px;
-    margin-top: 80px;
+.home-minimal .outline {
+    border: 1px solid #333;
+    font-size: 20px;
+    margin: 50px 0 20px;
     padding: 20px;
     text-align: left;
 }
 
-.home-minimal .banner-gray .outline p {
-    font-size: 18px;
+.home-minimal .outline h4 {
+    margin-bottom: 20px;
 }
 
-.home-minimal .banner-gray .outline strong {
+.home-minimal .outline p,
+.home-minimal .outline li {
+    font-size: 20px;
+}
+
+.home-minimal .outline strong {
     display: block;
     text-align: center;
 }
 
-.home-minimal .banner-gray .outline ul {
+.home-minimal .outline ul {
     list-style-type: circle;
     margin-top: 20px;
+    margin-left: 40px;
 }
 
 .home-minimal .banner-stats h2 {
